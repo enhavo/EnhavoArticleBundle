@@ -13,5 +13,9 @@ Enhavo\Bundle\ArticleBundle\Entity\Article:
                 type: teaser
 
         content:
+            - Model
+
+        tag:
             - Collection:
-                entity: Enhavo\Bundle\GridBundle\Entity\Content
+                type: text
+                weight: 3
